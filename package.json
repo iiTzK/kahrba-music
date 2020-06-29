@@ -4,13 +4,7 @@
   "description": "KahrbaaMUS",
   "main": "index.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Abady321x123/simple-music.git"
-  },
-  "author": "Abady",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Abady321x123/simple-music/issues"
+    "type": "git"
   },
   "homepage": "https://github.com/Abady321x123/simple-music#readme",
   "dependencies": {
@@ -83,6 +77,9 @@
     "zalgolize": "^1.2.4",
     "merge-descriptors": "^1.0.1"
   },
+     "engines": {
+     "node": "10.x"
+   },
   "scripts": {
     "start": "node index.js"
   }
